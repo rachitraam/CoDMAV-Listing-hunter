@@ -17,8 +17,8 @@ COINGECKO_API_URL = "https://api.coingecko.com/api/v3"
 
 # --- Neo4j Configuration (Knowledge Graph) ---
 NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
-NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
-NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
+NEO4J_USER = os.getenv("NEO4J_USER")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
 
 # --- Constants & Thresholds ---
 MAX_TEST_TX_AMOUNT = 999_999_999_999.0  # Increased massively to account for Meme coin token amounts
