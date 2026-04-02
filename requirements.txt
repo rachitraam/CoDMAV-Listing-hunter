@@ -1,0 +1,11 @@
+
+aiosqlite
+aiohttp
+networkx
+solana
+solders
+neo4j
+python-dotenv
+streamlit
+pandas
+streamlit-agraph
